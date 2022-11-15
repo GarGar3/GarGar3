@@ -181,7 +181,16 @@ background-color:#fff;
     border: 10px solid var(--primary-color);
     margin: 25px auto;
 }
-
+.cred{
+    display: flexbox;
+    text-align: right;
+    padding: 2px;
+    background-color: var(--secondary-color);
+    width: 50%;
+}
+.cred a{
+    color: var(--font-color);
+}
 .col{
     display: flex;
     flex-direction: column;
